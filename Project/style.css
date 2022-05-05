@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#navbar{
+    display: flex;
+    background-color: #4f4a4a;
+    opacity: 0.85;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+
+    
+#logo img{
+    
+    
+    width: 55px;
+    height: 54px;
+    border-radius: 31px;
+    padding: 6px 8px;
+    
+    
+}
+
+
+
+
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 2px 30px;
+    font-size: 20px;
+    color: white;
+}
+#navbar ul{
+    display: flex;
+    padding: 5px 10px;
+    margin: 19px 4px;
+}
+#navbar ul li a:hover{
+    color: rgb(170, 161, 161);
+    text-decoration: underline;
+}
+#Home{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 150px;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+   margin-top: 100px;
+   padding: 40px 20px;
+   color: rgb(0, 0, 0);
+   text-align: center;
+
+}
+#Home::before{
+    content: "";
+   background: url(navimage.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100vw;
+
+   height: 400px;
+   z-index: -1;
+   opacity: 0.5;
+}
+.btn{
+    margin-top: 45px;
+    padding: 4px 31px;
+    border-radius: 8px;
+    
+}
+.btn:hover{
+    background-color: rgb(68, 66, 66);
+    color: rgb(240, 234, 234);
+}
+#Our-Dishes h2{
+    display: flex;
+    position: relative;
+    top: 110px;
+   justify-content: center;
+
+}
+.roll img{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+.roll{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(161, 110, 110);
+    margin: 5px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 12px;  
+      background-color: #e1dadb;
+      box-shadow: 5px 7px #988085;
+}
+
+
+.content{
+    display: flex;
+    margin: 150px 30px;
+}
+.roll:hover{
+    background-color: rgb(187, 173, 173);
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    
+}
+#Our-Clients{
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    justify-content: center;
+}
+#Our-Clients::before{
+    content: "";
+    background: url(clients1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 219px;
+    z-index: -1;
+    opacity: 0.4;
+    margin: -99px;
+    margin-left: 3px;
+}
+#Our-Clients h2{
+    position: relative;
+    bottom: 85px;
+    justify-content: center;
+    
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 110px;
+}
+#Contact-Us form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin: auto;
+    /* margin: 20px; */
+    width: auto;
+    padding: 27px;
+}
+.contact{
+    display: flex;
+    position: relative;
+    top: 10px;
+    justify-content: center;
+}
+.input1{
+    padding: 7px;
+    margin: 5px;
+    width: 470px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
+
+}
+textarea{
+    height: 100px;
+}
+.input1:hover{
+    cursor: pointer;
+}
+#Contact-Us::before{
+    content: "";
+    background: url('images.jfif') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    
+    
+    
+    width: 100vw;
+    height: 500px;
+    z-index: -1;
+    opacity: 0.5;margin-top: -32px;
+    
+    
+}
+.btn1{
+    background-color: white;
+    width: 200px;
+    border-radius: 5px;
+    height: 33px;
+    /* padding: 7px; */
+    margin: 20px;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: rgb(230, 225, 225);
+}
+.logo:hover{
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    position: relative;
+    bottom: 21px;
+    left: 10px;
+
+}
+.footer a{
+    text-decoration: none;
+        background-color: black;
+           color: white;
+}
+.footer li{
+    list-style: none;background-color: #070707;
+    border: 2px solid #ffffff9c;
+    border-radius: 4px;
+    padding: 4px 10px;
+    margin: 4px;
+  
+}
+.reserved{
+    display: block;
+    width: 244px;
+    margin: auto;
+}
+.fa:hover{
+    color: rgb(154, 154, 212);
+}

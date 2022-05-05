@@ -1,0 +1,107 @@
+#navbar{display: flex;
+flex-wrap: wrap;
+width: 100vw;}
+#navbar li{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+#Our-Clients{
+    display: flex;
+    flex-wrap: wrap;
+}
+#Our-Clients::before{
+    content: "";
+    background: url(../Images/clients1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 269px;
+    z-index: -1;
+    opacity: 0.4;
+    margin: -99px;
+    margin-left: 3px;
+}
+.input1{
+    padding: 7px;
+    margin: 5px;
+    width: auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
+
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 90px;
+}
+#Home::before{
+    content: "";
+   background: url(../Images/navimage.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100vw;
+
+   height: 500px;
+   z-index: -1;
+   opacity: 0.5;
+}
+#Our-Dishes h2{
+    display: flex;
+    position: relative;
+    top: 80px;
+   justify-content: center;
+
+}
+#logo{display: block;
+margin: auto;}
+#Home{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 150px;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+   margin-top: 200px;
+   padding: 40px 20px;
+   color: rgb(0, 0, 0);
+   text-align: center;
+
+}
+.btn {
+    margin-top: 20px;
+    padding: 4px 31px;
+    border-radius: 8px;
+}
+#navbar ul li a {
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 11px;
+    color: white;
+}
+#navbar ul {
+    display: flex;
+    padding: 3px 16px;
+    margin: 19px 52px;
+}
